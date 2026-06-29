@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-spotify-dark: #121212;
+  --color-spotify-card: #1e1e1e;
+  --color-spotify-hover: #282828;
+  --color-spotify-green: #1db954;
+  --color-spotify-lightText: #b3b3b3;
+
+  --font-sans: "Poppins", system-ui, sans-serif;
+}
+html {
+  font-family: Poppins, system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
