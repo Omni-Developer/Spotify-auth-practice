@@ -28,7 +28,6 @@ A full-stack Spotify-inspired music streaming application built with **React.js*
 - MongoDB
 
 ### Cloud Services
-- Cloudinary
 - ImageKit
 
 ## Installation
@@ -54,8 +53,7 @@ Create a `.env` file in the backend directory and add the following variables:
 
 ```env
 MONGODB_URI=your_mongodb_connection_string
-
-
+JWT_SECRET=your-jwt-secert
 IMAGEKIT_PRIVATE_KEY=your_private_key
 
 PORT=3000
